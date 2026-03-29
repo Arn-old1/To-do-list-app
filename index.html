@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Shelia Reipe Finder</div>
+        <ul class="navbar-menu">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="act"><a href="#recipes">Recipes</a></li>
+          <button class="nav-btn">Browse recipes</button>
+        </ul>
+        <button class="navbar-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </nav>
+      <section class="hero-section">
+        <div class="hero">
+          <h2>Healthy meals,zero fuss</h2>
+          <p>
+            Discover eight quick,whole-food recipe that you can cook tonight no
+            pro cessed junk ,no guesswork.
+          </p>
+          <button class="hero-button">Start exploring</button>
+        </div>
+        <div class="image-box">
+          <img src="images/hero-image.jpg" class="hero-image" />
+        </div>
+      </section>
+
+      <div class="hero-texts">
+        <h1>What you'll get</h1>
+        <div class="hero-text">
+          <div>
+            <h3>Whole-food reipes</h3>
+            <p>Each dish uses everyday,unprocesed ingredient.</p>
+          </div>
+          <div>
+            <h3>Minimum fuss</h3>
+            <p>
+              All recipe are designed to make eating healthy quick and easy.
+            </p>
+          </div>
+          <div>
+            <h3>Search in seconds</h3>
+            <p>
+              Filter by name or ingredient and jump straight to the recipe you
+              need.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="grid-about">
+        <div class="about-text">
+          <h3>Built for real life</h3>
+          <p>
+            cooking should not be complicated. These recipes come in under
+            <span class="minutes"> 30minutes</span> of active time, fit busy
+            schedules, and taste good enough to repeat.
+          </p>
+          <p>
+            Whether you are new to the kitchen or just need fresh ideas we have
+            got you covered.
+          </p>
+        </div>
+        <div class="hero-image-box">
+          <img src="images/about-image.jpg" class="about-image" />
+        </div>
+      </div>
+    </section>
+    <section class="section-recipes">
+      <div class="recipes" id="recipes">
+        <h3>Explore our simple, healthy recipes</h3>
+        <p>
+          Discover eight quick, whole food-dishes that fit real life schedules
+          that taste amazing. Use the search to find the recipe by name or by
+          ingredient or simply scroll the list and let something delicious catch
+          your eye
+        </p>
+      </div>
+        <div class="search-box">
+          <ion-icon name="search-outline"></ion-icon>
+          <input type="search" placeholder="Search by name or ingredient...." />
+        </div>
+      </div>
+      <div class="recipe-cards">
+        <div class="recipe-card">
+          <img
+            src="images/salads.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>Mediterranean Chickpea Salad</h5>
+          <p>
+            A refreshing protein-packed salad tossed in a lemon-olive oil
+            dressing.
+          </p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 2 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 10 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: O mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+        <div class="recipe-card">
+          <img
+            src="images/avodedo.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>Avocado & Tomato Wholegrain</h5>
+          <p>
+            Creamy avocado spread over toasted wholegrain bread,topped with
+            juicy
+          </p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 1 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 5 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: 5 mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+        <div class="recipe-card">
+          <img
+            src="images/garlic.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>One-pan Lemon Garlic Salmon</h5>
+          <p>
+            A 15-minute weeknight dinner of flacky salmon and tender asparagus
+          </p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 2 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 5 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: 12 mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+        <div class="recipe-card">
+          <img
+            src="images/veggie.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>Quinoa Veggie Power Bowl</h5>
+          <p>
+            A balanced bowl of fluffy quinoa,roasted veggies and healthy fats.
+          </p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 2 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 10 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: 15 mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+        <div class="recipe-card">
+          <img
+            src="images/potato.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>Sweet Potato Black Beans Tacos</h5>
+          <p>
+            Smoky roasted sweet potatoes and black beans tucked into warm
+            tortilas
+          </p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 3 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 10 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: 15 mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+        <div class="recipe-card">
+          <img
+            src="images/you.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>Greek Yogurt Berry Parfait</h5>
+          <p>
+            Layers of Creamy yogurt, fresh berries and crunchy oats for a
+            high-protein snack.
+          </p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 1 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 5 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: O mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+        <div class="recipe-card">
+          <img
+            src="images/soup.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>Lentil & Spinach Soup</h5>
+          <p>A hearty 30-minute soup rich in plant protein and iron</p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 4 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 10 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: 2O mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+        <div class="recipe-card">
+          <img
+            src="images/banana.jpg"
+            width="100%"
+            class="recipe-image"
+            alt="image for salads"
+          />
+          <h5>Banana Oat Pancakes</h5>
+          <p>Flour-free panacakes sweetened naturally with ripe bananas</p>
+          <div class="recipes-time">
+            <div class="time">
+              <ion-icon name="person" class="recipe-icon"></ion-icon>
+              <span> Serving : 2 </span>
+            </div>
+            <div class="time">
+              <ion-icon name="alarm" class="recipe-icon"></ion-icon>
+              <span> Prep : 5 mins </span>
+            </div>
+            <div class="time">
+              <ion-icon name="flame" class="recipe-icon"></ion-icon>
+              <span> Cook: 1O mins </span>
+            </div>
+          </div>
+          <button class="recipe-button-card">View Recipe</button>
+        </div>
+      </div>
+    </section>
+    <footer>Made with React & love</footer>
+  </body>
+  <script src="script.js"></script>
+</html>
